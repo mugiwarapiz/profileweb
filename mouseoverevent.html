@@ -1,0 +1,35 @@
+<html>  
+<head>   
+<h1> This example is on the mouse cursor  </h1>  
+</head>  
+<body>  
+
+<style>
+body {
+  background-image: url("background.jpg");
+}
+</style>
+
+<script language="Javascript" type="text/Javascript">  
+ 
+    function mouseoverevent()  
+    {  
+        alert("What did i said?");  
+    }  
+ 
+ 
+    function clickevent()
+    {
+        document.write("Do not click the button when it said do not!!");
+    }
+
+</script> 
+<p onmouseover="mouseoverevent()"> Do not let the cursor over this paragraph</p>
+
+<form>
+<input type="button" onclick="clickevent()"
+value="Also do not click this button"/>
+</form>
+
+</body>  
+</html> 

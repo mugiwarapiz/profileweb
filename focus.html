@@ -1,0 +1,32 @@
+<html>  
+<head> <h1>Example on focusing the box</h1></head>  
+<body> 
+
+<style>
+body {
+  background-image: url("background.jpg");
+}
+</style>
+ 
+<h2> Do you see the highlight in the box?</h2>  
+<input type="text" id="input1" onfocus="focusevent()"/>  
+
+<h2>And also in this pinky box?</h2>
+<input type="text" id="input2" onfocus="focusevent()"/> 
+
+<h2>Lastly in this green box?</h2>
+<input type="text" id="input3" onfocus="focusevent()"/> 
+
+<script>  
+  
+    {  
+        document.getElementById("input1").style.background=" aqua";
+        document.getElementById("input2").style.background=" pink";	
+        document.getElementById("input3").style.background=" green";		
+    }
+	
+</script> 
+
+
+</body>  
+</html> 
